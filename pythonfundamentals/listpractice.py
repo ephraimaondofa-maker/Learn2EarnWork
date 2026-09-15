@@ -34,3 +34,26 @@ last_pop = fruits.pop(3)
 print(last_pop)
 insertlist = fruits.insert(3, 'Womanstay')
 print(fruits)
+
+#Copying list
+
+my_food  = ['pizza', 'falafa', 'rice', 'akpu', 'carrot cake', 'cannoli']
+my_friends_food = my_food.copy()
+
+"""
+print(f"My food: {my_food}")
+print(f"My friends food:  {my_friends_food}")
+
+#Second method  using slice method
+my_friends_food = my_food[:]
+
+#Third method 
+my_food = my_friends_food
+"""
+
+print(my_food)
+#print(my_friends_food)
+#Printing list items using slice 
+print(f"The first three items in the list are:\n {my_food[:3]} ")
+
+print(f"The last three items in the list are:\n {my_food[:5]} ")
